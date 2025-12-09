@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite — Салон красоты</title>
+    <meta name="description" content="Elite — современный салон красоты. Услуги: стрижки, окрашивание, маникюр, косметология. Запись онлайн.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Салон красоты Elite</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Красота, комфорт и стиль</h2>
+            <p>Elite — ваш идеальный салон красоты</p>
+            <a href="#contact" class="btn">Записаться</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Elite — современный салон красоты с профессиональными мастерами. Мы предлагаем полный спектр услуг для вашего образа.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service">Стрижки</div>
+                <div class="service">Маникюр / Педикюр</div>
+                <div class="service">Макияж</div>
+                <div class="service">Уход за кожей</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 777 777 77 77</p>
+            <p>Адрес: г. Уральск, ул Кайрата Жумагалиева 20/1</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2025 Elite — Салон красоты
+        </div>
+    </footer>
+</body>
+</html>
